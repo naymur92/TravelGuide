@@ -1,0 +1,100 @@
+.packages-container{
+	width: 100%;
+	margin-top: 20px;
+}
+.packages-container h1{
+	font-size: 1.3em;
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#umrah{
+	width: 100%;
+	clear: both;
+	float: left;
+	position: relative;
+	top: 25px;
+	margin: 20px 0;
+}
+#special_tour{
+	width: 100%;
+	clear: both;
+	float: left;
+	position: relative;
+	top: 25px;
+	margin: 20px 0;
+}
+#national_tour{
+	width: 100%;
+	clear: both;
+	float: left;
+	position: relative;
+	top: 25px;
+	margin: 20px 0;
+}
+#international_tour{
+	width: 100%;
+	clear: both;
+	float: left;
+	position: relative;
+	top: 25px;
+	margin: 20px 0;
+}
+.packages-container h2{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	width: fit-content;
+}
+.package_des{
+	width: 58%;
+	float: left;
+	margin-left: 20px;
+	line-height: 28px;
+}
+.package_des h3{
+	color: #30B4F9;
+	margin-top: 30px;
+}
+.package_des table caption{
+	font-weight: bold;
+	text-align: left;
+}
+.package_des table{
+	width: 60%;
+	height: 200px;
+	margin-top: 25px;
+	border-collapse: collapse;
+}
+.package_des table, td{
+	border: 1px solid #ddd;
+}
+.package_des td{
+	padding: 10px;
+}
+.booking-btn{
+	width: 100px;
+	padding: 15px;
+	position: relative;
+	top: 10px;
+	border-radius: 5px;
+}
+.booking-btn:hover{
+	background-color: #F09595;
+	cursor: pointer;
+}
+.package_img{
+	width: 38%;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+.package_img img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.nt-cont{
+	clear: both;
+}

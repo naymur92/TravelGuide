@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<title>Home Page - Travel Guide BD</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Courgette&family=Shadows+Into+Light&family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/supersized.shutter.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+	<script type="text/javascript" src="js/waltzerjs.min.js"></script>
+
+
+	<script type="text/javascript">			
+		jQuery(function($){
+			$.supersized({
+				
+					// Functionality
+					slideshow               :   1,			// Slideshow on/off
+					autoplay				:	1,			// Slideshow starts playing automatically
+					start_slide             :   1,			// Start slide (0 is random)
+					stop_loop				:	0,			// Pauses slideshow on last slide
+					random					: 	0,			// Randomize slide order (Ignores start slide)
+					slide_interval          :   3000,		// Length between transitions
+					transition              :   6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	1000,		// Speed of transition
+					new_window				:	1,			// Image links open in new window/tab
+					pause_hover             :   0,			// Pause slideshow on hover
+					keyboard_nav            :   1,			// Keyboard navigation on/off
+					performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect			:	1,			// Disables image dragging and right click with Javascript
+
+					// Size & Position						   
+					min_width		        :   0,			// Min width allowed (in pixels)
+					min_height		        :   0,			// Min height allowed (in pixels)
+					vertical_center         :   1,			// Vertically center background
+					horizontal_center       :   1,			// Horizontally center background
+					fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+					fit_portrait         	:   1,			// Portrait images will not exceed browser height
+					fit_landscape			:   0,			// Landscape images will not exceed browser width
+
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					thumb_links				:	1,			// Individual thumb links for each slide
+					thumbnail_navigation    :   0,			// Thumbnail navigation
+					slides 					:  	[			// Slideshow Images
+					{image : 'photos/slider (1).jpg', title : '', thumb : '', url : ''},
+					{image : 'photos/slider (1).png', title : '', thumb : '', url : ''},
+					{image : 'photos/slider (2).jpg', title : '', thumb : '', url : ''},
+					{image : 'photos/slider (3).jpg', title : '', thumb : '', url : ''},
+					{image : 'photos/slider (4).jpg', title : '', thumb : '', url : ''}
+					],
+
+					// Theme Options			   
+					progress_bar			:	1,			// Timer for each slide							
+					mouse_scrub				:	0
+					
+				});
+			});		    
+		</script>
+</head>
+<body>
+
+	<button onclick="topFunction()" id="myBtn"><i class="fa fa-solid fa-arrow-up"></i></button>
+
+	<!-- Topbar Start -->
+	<div class="topbar">
+		<div class="container">
+			<div class="contact">
+				<a href="#"><i class="fa fa-phone"></i>(01737036324)</a> &nbsp;
+				<a href="mailto:info@travelguidebd.com"><i class="fa fa-envelope-o"></i>info@travelguidebd.com</a>
+			</div>
+			<div class="social-icon">
+				<a href="http://www.fb.me/honeylinkbd"><i class="fa fa-facebook-square"></i></a>
+				<a href="#"><i class="fa fa-twitter-square"></i></a>
+				<a href="#"><i class="fa fa-linkedin-square"></i></a>
+				<a href="#"><i class="fa fa-youtube-play"></i></a>
+			</div>
+		</div>
+	</div>
+	<!-- Topbar End -->
+
+
+	<!-- Header Start -->
+	<div class="header header-transparent" id="mynav">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="photos/logo.png" alt="TravelGuideBD_logo"></a>
+			</div>
+
+			<!-- Navbar -->
+			<div class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Our Services</a></li>
+					<li class="dropdown"><a href="packages.html">Packages<i class="fa fa-caret-down"></i></a>
+						<ul class="dropdown-content">
+							<li><a href="packages.html#umrah">Umrah Package</a></li>
+							<li><a href="packages.html#special_tour">Special Tour Package</a></li>
+							<li><a href="packages.html#national_tour">National Tour</a></li>
+							<li><a href="packages.html#international_tour">International Tour</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+	<!-- Header End -->
+
+
+
+	<!-- Slider Item -->
+	<div class="slider">
+		<div class="slider_content">
+			<h1 class="noselect">Travel Guide- BD</h1>
+			<h3><i class="noselect">-Explore the World!</i></h3>
+			<div class="search">				
+				<form action="http://www.google.com/search" method="get">
+					<input type="text" name="q" placeholder="Where do you want to go?">
+					<button type="submit"><i class="fa fas fa-search"></i></button>
+				</form>
+			</div>		
+		</div>		
+	</div>
+
+
+	<!-- content area -->
+	<div class="wrapper">
+		<div class="container">
+			<div class="destext">
+				<h2>Travelguidebd.com - Explore The World!</h2>				
+
+                <p><strong>Bangladesh</strong> is one of the few countries in South Asia, which remains to be explored. Bangladesh has a delicate and distinctive attraction of its own to offer and it is definitely not a tourist haunt like Nepal or India. Bangladesh is like a painter's dream come true with a rich tapestry of colors and texture. The traditional emphasis of the tourist trade has always been on the material facilities offered by a country rather than on its actual charms. This may be a reason why Bangladesh has seldom been highlighted in the World's tourist maps.</p>
+
+                <p> <strong>It's a land of enormous beauty</strong>, hundreds of serpentine rivers, crystal clear water lakes surrounded by ever green hills, luxuriant tropical rain forests, beautiful cascades of green tea gardens, world's largest mangrove forest preserved as World Heritage, home of the Royal Bengal Tiger and the wild lives, warbling of birds in green trees, wind in the paddy fields, abundance of sunshine, world's longest natural sea beach, rich cultural heritage, relics of ancient Buddhist civilizations and colorful tribal lives, - Bangladesh creates an unforgettable impression of a land of peace.</p>
+
+                <p><strong> You'll appreciate our culture and the environment.</strong> These are not simply sight-seeing excursions, but real-time learning experiences. Enjoy an ideal blend of adventure and exploration with comfort and relaxation. Here you find that you are not alone. With us, any place in Bangladesh is a home away from home. </p>
+            
+			</div>
+			<div class="desimg">
+				<div class="desimg_top">
+					<img src="photos/tgbd (4).jpg" alt="Bandarban-cloud">
+				</div>
+				<div class="desimg_bottom">
+					<div class="desimg_bottom_1">
+						<img src="photos/tgbd (8).JPG" alt="Nafakhum waterfall_Bandarban">
+					</div>
+					<div class="desimg_bottom_2">
+						<img src="photos/tgbd (1).JPG" alt="Sangu Rivar_Bandarban">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Tour Packages -->
+	<div class="wrapper">
+		<div class="container">
+			<div class="packages">
+				<h2>Our Packages</h2>
+				<div id="carousel" class='outerWrapper'>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/Amiakhum.jpg" alt="Amiakhum Water Fall"></div>
+						<div class="sldes">
+							<h4>Amiakhum Water Fall</h4>
+							<span>Starting at: <b>Tk. 6000</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/bandarban.jpg" alt="Bandarban"></div>
+						<div class="sldes">
+							<h4>Bandarban</h4>
+							<span>Starting at: <b>Tk. 5000</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/coxs_bazar.jpg" alt="Cox's Bazar"></div>
+						<div class="sldes">
+							<h4>Cox's Bazar</h4>
+							<span>Starting at: <b>Tk. 8000</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/mahasthangarh.jpg" alt="Mahasthangarh"></div>
+						<div class="sldes">
+							<h4>Mahasthangarh</h4>
+							<span>Starting at: <b>Tk. 3000</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/rangamati.jpg" alt="Rangamati"></div>
+						<div class="sldes">
+							<h4>Kaptai Lake, Rangamati</h4>
+							<span>Starting at: <b>Tk. 5500</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/st_martin.jpg" alt="Saint Martin Iland"></div>
+						<div class="sldes">
+							<h4>St. Martin Iland</h4>
+							<span>Starting at: <b>Tk. 10000</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/sundarban.jpg" alt="Sundarban"></div>
+						<div class="sldes">
+							<h4>Sundarban, Mangrove Forest</h4>
+							<span>Starting at: <b>Tk. 8000</b></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slimg"><img src="photos/packages/sylhet.jpg" alt="Jaflong, Sylhet"></div>
+						<div class="sldes">
+							<h4>Jaflong, Sylhet</h4>
+							<span>Starting at: <b>Tk. 5000</b></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+
+	<!-- Dream Destination -->
+	<div class="wrapper">
+		<div class="container">
+			<div class="dream_dest">
+				<h2>Dream Destinations</h2>
+				<div class="cont_main_d">
+					<div class="cont_left_d">
+						<div class="cont_left_top">
+							<div class="dest_img">
+								<img src="photos/dream_dest/1.jpg" alt="">
+							</div>
+							<div class="dest_desc">
+								<h4>Nafakhum Water Fall</h4>
+								<span>One of the popular places of Bangladesh</span>
+							</div>
+						</div>
+						<div class="cont_left_bottom">
+							<div class="cont_l_b_1">
+								<h4>St. Martin</h4>
+								<span>Most popular location in Bangladesh</span>
+							</div>
+							<div class="cont_l_b_2">
+								<img src="photos/dream_dest/st_martin.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="cont_center_d">
+						<div class="cont_center_top">
+							<div class="cont_c_t_1">
+								<img src="photos/dream_dest/sylhet.jpg" alt="">
+							</div>
+							<div class="cont_c_t_2">
+								<h4>Jaflong, Sylhet</h4>
+								<span>Most popular location for tea garden</span>
+							</div>
+						</div>
+						<div class="cont_center_bottom">
+							<div class="dest_img">
+								<img src="photos/dream_dest/bandarban.jpg" alt="">
+							</div>
+							<div class="dest_desc_1">
+								<h4>Bandarban</h4>
+								<span>Forest, Hill, ZigZak Road, Beautiful place.</span>
+							</div>
+						</div>
+					</div>
+					<div class="cont_right_d">
+						<div class="cont_right_top">
+							<div class="dest_img">
+								<img src="photos/dream_dest/sundarban.jpg" alt="">
+							</div>
+							<div class="dest_desc_1">
+								<h4>Sundarban</h4>
+								<span>World Biggest Mangrove Forest</span>
+							</div>
+						</div>
+						<div class="cont_right_bottom">
+							<div class="cont_r_b_1">
+								<h4>Mahasthangarh</h4>
+								<span>Oldest City of Bangladesh</span>
+							</div>
+							<div class="cont_r_b_2">
+								<img src="photos/dream_dest/mahasthangarh.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<!-- Footer Container -->
+	<div class="footer-container">
+		<div class="container">
+			<div class="footer-flex">
+				<div class="foot1">
+					<h3>About Travel Guide BD</h3>
+					<p>The Travel Guide BD (TG-BD) is the flagship digital consumer brand. A comprehensive guide to the world’s best travel destinations, its print heritage stretches back more than 30 years, with the online portal reaching its 20-year anniversary in 2019. Available in English, German and Spanish versions, the TG-BD provides detailed and accurate travel content designed to inspire global travellers. It covers all aspects, from cities to airports, cruise ports to ski and beach resorts, attractions to events, and it also includes weekly travel news, features and quizzes. Updated every day by a dedicated global editorial team, the portal logs 1 million+ unique users monthly.</p>
+				</div>
+				<div class="foot2">
+					<ul class="menu">
+						<li><a href="#">&gt;Africa</a></li>
+						<li><a href="#">&gt;Asia</a></li>
+						<li><a href="#">&gt;Caribbean</a></li>
+						<li><a href="#">&gt;Europe</a></li>
+						<li><a href="#">&gt;Middle East</a></li>
+						<li><a href="#">&gt;North America</a></li>
+						<li><a href="#">&gt;Oceania</a></li>
+						<li><a href="#">&gt;South America</a></li>
+					</ul>
+				</div>
+				<div class="foot3">
+					<ul class="menu">
+						<li><a href="#">&gt;Airport guides</a></li>
+						<li><a href="#">&gt;Beach Guides</a></li>
+						<li><a href="#">&gt;City Guides</a></li>
+						<li><a href="#">&gt;Country Guides</a></li>
+						<li><a href="#">&gt;Cruise Guides</a></li>
+						<li><a href="#">&gt;Passport &amp; Visa</a></li>
+						<li><a href="#">&gt;Public Holidays</a></li>
+						<li><a href="#">&gt;Ski Resorts</a></li>
+					</ul>
+				</div>
+				<div class="foot4">
+					<ul class="menu">
+						<li><a href="#">&gt;Der Reiseführer</a></li>
+						<li><a href="#">&gt;Guía Mundial de Viajes</a></li>
+						<li><a href="#">&gt;Columbus Travel Pro</a></li>
+						<li><a href="#">&gt;Advertiser T's and C's</a></li>
+						<li><a href="#">&gt;Contributors T's &amp; C's</a></li>
+						<li><a href="#">&gt;Conditions for use</a></li>
+						<li><a href="#">&gt;Conditions for Sales of Goods</a></li>
+						<li><a href="#">&gt;Privacy Policy</a></li>
+						<li><a href="#">&gt;Cookie Policy</a></li>
+					</ul>
+
+					<div class="subscribe">
+						<form>
+							<input type="email" name="subscribe_mail" placeholder="Enter Email"> <br>
+							<input type="button" name="subscribe" value="SUBSCRIBE">
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="container">
+			<span>&copy;Travel Guide BD</span>
+		</div>
+	</div>
+
+
+	<script>
+		//Sticky navbar
+		var myNav = document.getElementById('mynav');
+		function stickyNavbar(){
+			if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
+				myNav.classList.add("header-colored");
+				myNav.classList.remove("header-transparent");
+			} 
+			else {
+				myNav.classList.add("header-transparent");
+				myNav.classList.remove("header-colored");
+			}
+		}
+
+
+		//Go to top button
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		// When the user scrolls down 20px from the top of the document, show the button
+
+		// window.onscroll = function(){scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+		    mybutton.style.display = "block";
+		  }
+		  else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  window.scrollTo({top: 0, behavior: 'smooth'});
+		  // document.documentElement.scrollTo({top: 0, behavior: 'smooth'});
+		}
+
+
+		//calling both function
+		window.onscroll = function () { 
+			stickyNavbar();
+			scrollFunction();
+		}
+	</script>
+	<script>
+
+	$('#carousel').waltzer({
+		scroll:1,
+		auto:true,
+		autoPause: 2000
+	});
+
+</script>
+</body>
+</html>
