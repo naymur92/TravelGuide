@@ -46,7 +46,10 @@
 
 .image_gallery{
 	width: 100%;
-	margin: 20px 0;
+	margin: 20px 0;	
+}
+.fotorama{
+	margin-left: 10vw;
 }
 .image_gallery > h1{
 	text-align: center;

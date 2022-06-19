@@ -85,9 +85,10 @@
 
 /*Content Area*/
 .destext{
-	width: 50%;
+	width: 48%;
 	float: left;
 	text-align: justify;
+	margin-right: 20px;
 	padding: 20px 10px 20px 0px;
 }
 .destext h2{
@@ -96,7 +97,7 @@
 }
 .destext p{
 	margin-top: 20px;
-	font-size: 13px;
+	font-size: 1.2em;
 }
 .desimg{
 	width: 50%;
@@ -185,6 +186,7 @@
 	position: relative;
 	top: -85px;
 	text-align: center;
+	line-height: 20px;
 }
 .sldes span{
 	position: relative;
@@ -304,7 +306,7 @@
 	width: 100%;
 	position: relative;
 	color: white;
-	bottom: 70px;
+	bottom: 80px;
 	left: 0;
 	right: 0;
 	padding: 15px;
@@ -313,7 +315,7 @@
 	transition: 0.3s ease-in-out;
 }
 .dest_desc_1{
-	bottom: 89px !important;
+	bottom: 105px !important;
 }
 .cont_left_top:hover 
 .dest_desc{

@@ -22,7 +22,7 @@ body{
 	font-family: 'Fira Sans', sans-serif;
 	letter-spacing: 1.5px;
 	word-spacing: 4px;
-	line-height: 20px;
+	line-height: 25px;
 }
 .noselect {
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -91,7 +91,7 @@ body{
 }
 .topbar a:hover{
 	background-size: 100% 2px;
-	color: #230909;
+	color: #F7BDBD;
 	transition: 0.3s ease-in-out all;
 	-moz-transition: 0.3s ease-in-out all;
 	-webkit-transition: 0.3s ease-in-out all;
@@ -127,6 +127,7 @@ body{
 .navbar a{
 	text-decoration: none;
 	color: white;
+	font-size: 1.1em;
 }
 .navbar ul{
 	list-style: none;
@@ -177,6 +178,7 @@ body{
 .footer-container{
 	background-color: #2a2466;
 	color: white;
+	font-size: 1.1em;
 }
 .footer-flex{
 	display: flex;
@@ -189,9 +191,11 @@ body{
 }
 .foot1 p{
 	margin-top: 30px;
+	text-align: justify;
 }
 .menu{
 	list-style: none;
+	margin-top: 57px;
 }
 .menu li a{
 	display: block;
